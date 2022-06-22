@@ -150,3 +150,25 @@ sudo docker tag technoforte:latest bhuvana426/technoforte
 docker tag hello_world_app:latest bhuvna426/technoforte
 docker tag hello_world_app:latest flyhighpaul/hello_world_app
 curl -X GET http://localhost:4000
+sudo docker run -it -p 4000:4000 hello_world_app
+sudo docker images
+sudo docker tag hello_world_app:new bhuvana426/hello_world_app
+sudo docker tag hello_world_app:latest bhuvana426/hello_world_app
+sudo docker push bhuvana426/hello_world_app
+sudo nano deploy.yml
+kubectl apply -f deploy.yml 
+sudo kubectl apply -f deploy.yml 
+git init
+git remote add origin https://github.com/Bhuvanachandra26/worker-one.git
+git add .
+git remote add origin https://github.com/Bhuvanachandra26/worker-one.git
+git add .
+git status
+git commit -m "created"
+git push origin master 
+sudo docker run -it -p 4000:4000 hello_world_app
+sudo docker ps
+ls
+cd task/
+ls
+sudo docker ps
