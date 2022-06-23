@@ -33,6 +33,6 @@ jobs:
       - name: scripts
         run: |
           docker build -t hello_world_app .
-          docker login -u bhuvana426 -p 55711e39-e299-4ec0-903f-543916bbdabb
+          docker login -u bhuvana426 -p 6f14a6be-338f-4565-a911-0dbd5a513daf
           docker tag hello_world_app bhuvana426/worker
           docker push bhuvana426/worker
